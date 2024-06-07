@@ -79,7 +79,7 @@ if (is_logged_in()) {
   justify-content: center;
   align-items: center;
   color: rgb(0, 0, 0);
-  background: url('https://i.imgur.com/ckv5gUa.jpeg') no-repeat center center fixed;
+  background: url('https://haxor.lol/love/asta.gif') no-repeat center center fixed;
   background-size: 50rem;
   font-family: Arial, sans-serif;
   }
